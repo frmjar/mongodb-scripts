@@ -9,8 +9,14 @@
   },
   "author": "Félix Redondo",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "mongodb": "^3.6.4"
+    "mongodb": "^3.6.4",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0"
   }
 }
